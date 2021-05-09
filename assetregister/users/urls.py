@@ -5,7 +5,7 @@ from assetregister.users.views import (
     user_redirect_view,
     user_update_view,
 )
-
+#app name called users
 app_name = "users"
 urlpatterns = [
     path("~redirect/", view=user_redirect_view, name="redirect"),
